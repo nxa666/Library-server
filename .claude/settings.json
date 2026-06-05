@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./mvnw clean *)",
+      "Bash(MAVEN_OPTS=\"-Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dmaven.wagon.http.ssl.ignore.validity.dates=true\" ./mvnw clean compile -q)",
+      "Bash(java -version)",
+      "Bash(javac -version)",
+      "Bash(mkdir -p \"c:/Users/联想Y7000P/.m2\")",
+      "Bash(find /c/ -name \"java.exe\" -path \"*/bin/*\" 2>/dev/null | head -20)",
+      "Read(//c//**)",
+      "Read(//d/Java web/IntelliJ IDEA 2023.3.7/jbr/**)",
+      "Read(//d/Java web/**)",
+      "Read(//d/Program Files/**)",
+      "Bash(\"d:/Java web/IntelliJ IDEA 2023.3.7/jbr/bin/java\" -version)",
+      "Bash(\"d:/Java web/IntelliJ IDEA 2023.3.7/jbr/bin/javac\" -version)",
+      "Bash(find /c/ -name \"jre\" -type d -path \"*/jdk*\" 2>/dev/null | head -5; find /c/ -name \"jdk*\" -maxdepth 2 -type d 2>/dev/null | head -10)",
+      "Bash(\"c:/Users/联想Y7000P/.jdks/openjdk-22.0.1/bin/javac\" -version)",
+      "Bash(./mvnw --version)",
+      "Bash(JAVA_HOME=\"d:/Java web/IntelliJ IDEA 2023.3.7/jbr\" ./mvnw clean compile)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\联想Y7000P\\.m2"
+    ]
+  }
+}
