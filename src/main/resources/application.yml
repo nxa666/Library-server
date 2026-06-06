@@ -41,8 +41,8 @@ mybatis-plus:
   type-aliases-package: com.library.entity
 
 jwt:
-  secret: library-server-jwt-secret-key-2024-very-long-key-for-hs256-algorithm
-  expiration: 86400000
+  secret: library-secret-key
+  expire: 86400000
 
 knife4j:
   enable: true
