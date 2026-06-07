@@ -1,5 +1,9 @@
 server:
   port: 8080
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 5MB
 
 spring:
   application:
@@ -44,8 +48,14 @@ jwt:
   secret: library-secret-key
   expire: 86400000
 
+upload:
+  path: /uploads/book
+
 knife4j:
   enable: true
+  setting:
+    enable-swagger-resources: true
+    enable-document-manage: true
   openapi:
     title: 智慧图书管理系统 API
     description: 智慧图书管理系统接口文档
